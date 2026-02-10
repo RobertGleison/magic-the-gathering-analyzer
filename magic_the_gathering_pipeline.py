@@ -47,7 +47,7 @@ def magic_the_gathering_source():
 
 pipeline = dlt.pipeline(
     pipeline_name="magic_the_gathering_pipeline",
-    destination="duckdb",
+    destination="postgres",
     dataset_name="magic_the_gathering_data",
     progress="log",
 )
